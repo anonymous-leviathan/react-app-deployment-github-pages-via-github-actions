@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-      "deploy": "gh-pages -d build -u \"github-actions-bot <support+actions@github.com>\" -r https://<username>:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/anonymous-leviathan/react-app-deployment-github-pages-via-github-actions.git",
+      "deploy": "gh-pages -d build -u \"github-actions-bot <support+actions@github.com>\" -r https://anonymous-leviathan:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/anonymous-leviathan/react-app-deployment-github-pages-via-github-actions.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
