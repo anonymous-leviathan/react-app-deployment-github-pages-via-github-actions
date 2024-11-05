@@ -28,4 +28,4 @@ jobs:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
       run: |
         npm install -g gh-pages
-        gh-pages -d build -u "github-actions-bot <support+actions@github.com>" -r "https://${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/anonymous-leviathan/react-app-deployment-github-pages-via-github-actions.git"
+        gh-pages -d build -b gh-pages -u "github-actions-bot <support+actions@github.com>" -r "https://${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/anonymous-leviathan/react-app-deployment-github-pages-via-github-actions.git"
